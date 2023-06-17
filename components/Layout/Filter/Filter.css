@@ -1,0 +1,40 @@
+.filter {
+   width: 100%;
+   background-color: var(--whiteColor);
+   margin-top: var(--size-16);
+   border-radius: var(--size-10);
+   display: flex;
+   flex-direction: column;
+   padding: var(--size-16);
+}
+
+.filter-top {
+   width: inherit;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.filter-group {
+   width: calc(100% / 4 - var(--size-16));
+   display: flex;
+   justify-content: center;
+   align-items: flex-start;
+   flex-direction: column;
+}
+
+.filter-group .filter-group-title {
+   padding: var(--size-10) 0;
+}
+
+.filter-group .filter-input {
+   width: 100%;
+   background-color: var(--grayLightColor-300) !important;
+   border-radius: var(--size-8);
+}
+
+.filter-bottom {
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+}

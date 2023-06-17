@@ -1,0 +1,41 @@
+.btn {
+   cursor: pointer !important;
+   border: none !important;
+   outline: none !important;
+   transition: 0.3s linear !important;
+   box-sizing: border-box !important;
+   text-align: center !important;
+}
+.btn-full {
+   width: 100% !important;
+}
+
+.btn-disabled {
+   color: var(--grayColor) !important;
+   background-color: var(--grayLightColor) !important;
+   cursor: not-allowed !important;
+}
+.btn-default {
+   padding: var(--size-8) var(--size-24);
+   min-width: 10rem;
+}
+
+.btn-primary {
+   color: var(--whiteColor);
+   background-color: var(--blueColor);
+}
+
+.btn-primary:hover {
+   color: var(--whiteColor);
+   background-color: var(--blueColor-900);
+}
+
+.btn-third {
+   color: var(--grayColor);
+   background-color: var(--grayLightColor-500);
+}
+
+.btn-third:hover {
+   color: var(--grayColor);
+   background-color: var(--grayLightColor-300);
+}

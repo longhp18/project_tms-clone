@@ -1,0 +1,4 @@
+.tablerequest .ant-table-wrapper .ant-table {
+   border-radius: var(--size-10);
+   overflow: hidden;
+}

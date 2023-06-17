@@ -1,0 +1,17 @@
+.create-request {
+   background-color: var(--whiteColor);
+   padding: var(--size-16);
+   border-radius: var(--size-10);
+   margin-top: var(--size-16);
+}
+
+.create-request-heading {
+   font-weight: var(--weight-600);
+   margin-bottom: var(--size-16);
+}
+
+.create-request .form-input {
+   width: 100%;
+   background-color: var(--grayLightColor-300) !important;
+   border-radius: var(--size-8);
+}

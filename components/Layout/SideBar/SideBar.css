@@ -1,0 +1,32 @@
+.sidebar {
+   height: 100%;
+   background-color: var(--whiteColor);
+   border-top-right-radius: var(--size-10);
+   position: sticky;
+   z-index: 999;
+   top: calc(5rem + var(--size-16));
+   margin-top: var(--size-16);
+}
+:where(
+      .css-dev-only-do-not-override-12jzuas
+   ).ant-menu-light.ant-menu-root.ant-menu-inline,
+:where(.css-dev-only-do-not-override-12jzuas).ant-menu-light
+   > .ant-menu.ant-menu-root.ant-menu-inline,
+:where(
+      .css-dev-only-do-not-override-12jzuas
+   ).ant-menu-light.ant-menu-root.ant-menu-vertical,
+:where(.css-dev-only-do-not-override-12jzuas).ant-menu-light
+   > .ant-menu.ant-menu-root.ant-menu-vertical {
+   border-inline-end: 0;
+}
+
+.sidebar .ant-menu {
+   border-top-right-radius: var(--size-10);
+   border-bottom-right-radius: var(--size-10);
+   transition: all 0.3s linear;
+}
+
+.sidebar:hover {
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 24px;
+   transition: box-shadow 0.5s linear;
+}

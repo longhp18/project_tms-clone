@@ -1,0 +1,34 @@
+.root-layout {
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+   background-color: var(--grayLightColor-300);
+}
+
+.container-content {
+   width: 100%;
+   height: 100%;
+   display: flex;
+   margin-top: calc(5rem);
+}
+
+.container-top {
+   width: 100%;
+   position: fixed;
+   z-index: 1000;
+}
+
+.container-left {
+   min-width: 8rem;
+   z-index: 999;
+   position: fixed;
+   height: 100%;
+}
+
+.container-right {
+   flex: 1;
+   margin-left: 8rem;
+   padding: 0 var(--size-16);
+   border-top-left-radius: var(--size-10);
+}
